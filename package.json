@@ -1,0 +1,16 @@
+{
+  "name": "acme-api",
+  "version": "1.0.0",
+  "dependencies": {
+    "@redocly/cli": "1.25.7"
+  },
+  "private": true,
+  "scripts": {
+    "start": "redocly preview-docs",
+    "build": "redocly bundle -o dist/bundle.yaml",
+    "test": "redocly lint"
+  },
+  "devDependencies": {
+    "@redocly/openapi-cli": "^0.12.16"
+  }
+}
